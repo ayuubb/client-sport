@@ -1,0 +1,157 @@
+body{
+    font-family: 'Archivo Narrow', 
+    sans-serif;background: rgba(162, 213, 242, 0.2);
+}
+
+/* header */
+a{
+    text-decoration: none !important;
+    color: #000;
+}
+a:focus{
+    color: #FF7E67;
+}
+/* home */
+
+.title-home, .title-team{
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.btn-about-us{
+    background: rgba(7, 104, 159, 0.6);
+    border-radius: 80px;
+}
+
+.img-hero-home{
+    height: 80vh;
+}
+
+/* trainer */
+.img-hero-trainer{
+    position: fixed;
+    left: 0;
+    top: -60px;
+    z-index: -99;
+}
+
+.img-trainer{
+    width: 84px;
+    border: 1px solid black;
+}
+.search-input-trainer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.btn-search-trainer{
+    background-color: #FF7E67;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff; 
+}
+
+.btn-trainer-dropdown{
+    background-color: #FF7E67;
+    border-radius: 30px;
+    padding: 10px;
+    color: #fff; 
+}
+
+.card-trainer{
+    color: #000;
+    text-decoration: none;
+}
+.card-list-trainer{
+    border-radius: 40px !important;
+    border: 1px solid black;
+}
+
+/* team */
+
+.hero-team{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: -99;
+}
+
+.img-team{
+    width: 70px;
+}
+
+.card-team-accordion{
+    background-color: #fff !important;
+}
+
+.search-input-team{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+/* place */
+.img-place {
+    max-width: 200px;
+}
+
+.card-list-place {
+    background-color: #f7f5f5;
+    border: 1px solid #00000034;
+}
+
+.btn-direction{
+    background-color: #FF7E67;
+    border-radius: 30px;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    color: #fff; 
+    text-decoration: none;
+}
+.btn-direction:hover{
+    color: rgb(235, 235, 235); 
+}
+
+.btn-place-dropdown{
+    background-color: rgba(177, 177, 177, 0.5);
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    color: rgb(0, 0, 0); 
+    font-weight: bolder;
+}
+
+/* food */
+
+.card-desc{
+    background-color: #0000001c;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.card-desc-total{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.search-input-food{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-right: 8px;
+    max-width: 400px;
+}
